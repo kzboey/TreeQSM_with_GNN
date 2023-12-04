@@ -1,9 +1,0 @@
-Training set   = 4 qsm
-Validation set = 1 qsm
-Test set       = 1 qsm
-# features   = 72
-# outputs   = {'Acer campestre': 0, 'Acer japonicum': 1, 'Acer negundo': 2, 'Acer platanoides': 3, 'Acer pseudoplatanus': 4, 'Acer saccharinum': 5, 'Acer species': 6, 'Aesculus hippocastanum': 7, 'Aesculus √ó carnea': 8, 'Ailanthus altissima': 9, 'Betula pendula': 10, 'Betula utilis': 11, 'Carpinus betulus': 12, 'Corylus colurna': 13, 'Fagus sylvatica': 14, 'Fraxinus excelsior': 15, 'Fraxinus ornus': 16, 'Ginkgo biloba': 17, 'Gleditsia triacanthos': 18, 'Liriodendron tulipifera': 19, 'Magnolia species': 20, 'Malus species': 21, 'Picea abies': 22, 'Picea species': 23, 'Platanus √ó hispanic': 24, 'Platanus √ó hispanica': 25, 'Populus nigra': 26, 'Populus nigra var. italica': 27, 'Prunus species': 28, 'Pyrus species': 29, 'Quercus species': 30, 'Robinia pseudoacacia': 31, 'Sorbus aria': 32, 'Taxus baccata': 33, 'Tilia cordata': 34, 'Tilia species': 35, 'Ulmus glabra': 36, 'Ulmus laevis': 37}
-Start training for (GCN)
-Epoch 1/1
-----------
-
