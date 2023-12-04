@@ -1,0 +1,41 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.10.6",
+    "heartbeatAt": "2023-10-25T12:46:50.868474",
+    "startedAt": "2023-10-25T12:46:50.108727",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "notebook/Untitled.ipynb",
+    "root": "/Users/boeykaizhe/Documents/TUM",
+    "git": {
+        "remote": "https://github.com/kzboey/TUM-courses.git",
+        "commit": "1900704c6461c212e8eff945094d5ce0ca091abe"
+    },
+    "email": "kzboey@hotmail.com",
+    "host": "Boeys-MacBook-Pro.fritz.box",
+    "username": "boeykaizhe",
+    "executable": "/Users/boeykaizhe/opt/anaconda3/envs/i2dl/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1400,
+        "min": 1400,
+        "max": 1400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1400,
+            "min": 1400,
+            "max": 1400
+        }
+    ],
+    "disk": {
+        "total": 233.46913528442383,
+        "used": 181.6875991821289
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

@@ -1,0 +1,35 @@
+2023-10-25 14:46:50,111 INFO    MainThread:83399 [wandb_setup.py:_flush():76] Current SDK version is 0.15.8
+2023-10-25 14:46:50,112 INFO    MainThread:83399 [wandb_setup.py:_flush():76] Configure stats pid to 83399
+2023-10-25 14:46:50,112 INFO    MainThread:83399 [wandb_setup.py:_flush():76] Loading settings from /Users/boeykaizhe/.config/wandb/settings
+2023-10-25 14:46:50,112 INFO    MainThread:83399 [wandb_setup.py:_flush():76] Loading settings from /Users/boeykaizhe/Documents/TUM/QSM/python_script/wandb/settings
+2023-10-25 14:46:50,112 INFO    MainThread:83399 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-10-25 14:46:50,112 INFO    MainThread:83399 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-10-25 14:46:50,112 INFO    MainThread:83399 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2023-10-25 14:46:50,112 INFO    MainThread:83399 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2023-10-25 14:46:50,112 INFO    MainThread:83399 [wandb_init.py:_log_setup():507] Logging user logs to /Users/boeykaizhe/Documents/TUM/QSM/python_script/wandb/run-20231025_144650-9lyuo61d/logs/debug.log
+2023-10-25 14:46:50,112 INFO    MainThread:83399 [wandb_init.py:_log_setup():508] Logging internal logs to /Users/boeykaizhe/Documents/TUM/QSM/python_script/wandb/run-20231025_144650-9lyuo61d/logs/debug-internal.log
+2023-10-25 14:46:50,112 INFO    MainThread:83399 [wandb_init.py:_jupyter_setup():453] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7febb54ada80>
+2023-10-25 14:46:50,113 INFO    MainThread:83399 [wandb_init.py:init():547] calling init triggers
+2023-10-25 14:46:50,113 INFO    MainThread:83399 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'epochs': 100, 'batch_size': 128, 'lr': 0.001}
+2023-10-25 14:46:50,113 INFO    MainThread:83399 [wandb_init.py:init():596] starting backend
+2023-10-25 14:46:50,113 INFO    MainThread:83399 [wandb_init.py:init():600] setting up manager
+2023-10-25 14:46:50,115 INFO    MainThread:83399 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-10-25 14:46:50,118 INFO    MainThread:83399 [wandb_init.py:init():606] backend started and connected
+2023-10-25 14:46:50,123 INFO    MainThread:83399 [wandb_run.py:_label_probe_notebook():1234] probe notebook
+2023-10-25 14:46:50,124 INFO    MainThread:83399 [wandb_init.py:init():697] updated telemetry
+2023-10-25 14:46:50,200 INFO    MainThread:83399 [wandb_init.py:init():730] communicating run to backend with 60.0 second timeout
+2023-10-25 14:46:50,710 INFO    MainThread:83399 [wandb_run.py:_on_init():2180] communicating current version
+2023-10-25 14:46:50,844 INFO    MainThread:83399 [wandb_run.py:_on_init():2189] got version response upgrade_message: "wandb version 0.15.12 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-10-25 14:46:50,845 INFO    MainThread:83399 [wandb_init.py:init():781] starting run threads in backend
+2023-10-25 14:46:57,166 INFO    MainThread:83399 [wandb_run.py:_console_start():2159] atexit reg
+2023-10-25 14:46:57,166 INFO    MainThread:83399 [wandb_run.py:_redirect():2014] redirect: wrap_raw
+2023-10-25 14:46:57,167 INFO    MainThread:83399 [wandb_run.py:_redirect():2079] Wrapping output streams.
+2023-10-25 14:46:57,167 INFO    MainThread:83399 [wandb_run.py:_redirect():2104] Redirects installed.
+2023-10-25 14:46:57,169 INFO    MainThread:83399 [wandb_init.py:init():822] run started, returning control to user process
+2023-10-25 14:47:08,057 INFO    MainThread:83399 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-10-25 14:47:08,059 INFO    MainThread:83399 [wandb_init.py:_pause_backend():418] pausing backend
+2023-10-25 14:48:09,917 INFO    MainThread:83399 [wandb_init.py:_resume_backend():423] resuming backend
+2023-10-25 14:48:09,927 INFO    MainThread:83399 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-10-25 14:48:09,928 INFO    MainThread:83399 [wandb_init.py:_pause_backend():418] pausing backend

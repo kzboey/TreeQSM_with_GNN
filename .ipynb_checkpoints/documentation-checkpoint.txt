@@ -1,0 +1,59 @@
+Problems and solution:
+1. Dataset too large to read into memory at once -> Divide dataset into batches according to their file names, read a batch to train a mode, then save the model before reading data from another batch to continue training on the saved model.
+2. Models inspired from the paper may not work entirely, found to cause exploding gradient -> modify by adding batch normalization between each graph layer.
+3. Unsure of maximum threshold number of data that can be loaded into memory at once, but ~200 will fail, currently set at 128.
+4. Verify invalid data containing NaN that causes problem during training.
+    data: 2023-01-11_51_000092.pickle contains NaN! (invalid)
+    data: 2023-01-11_51_000069.pickle contains NaN! (invalid)
+    data: 2023-01-16_24_000028.pickle contains NaN! (invalid)
+    data: 2023-01-16_16_000026.pickle contains NaN! (invalid)
+    data: 2023-01-09_5_1_37_000260.pickle contains NaN! (invalid)
+    data: 2023-01-13_70_000031.pickle contains NaN! (invalid)
+    data: 2023-01-09_5_1_37_000062.pickle contains NaN! (invalid)
+    data: 2023-01-09_17_2_18_000064.pickle contains NaN! (invalid)
+    data: 2023-01-16_44_000179.pickle contains NaN! (invalid)
+    data: 2023-01-10_47_000021.pickle contains NaN! (invalid)
+    data: 2023-01-13_41_000063.pickle contains NaN! (invalid)
+    data: 2023-01-09_17_2_18_000109.pickle contains NaN! (invalid)
+    data: 2023-01-09_5_1_37_000107.pickle contains NaN! (invalid)
+    data: 2023-01-12_59_000025.pickle contains NaN! (invalid)
+    data: 2023-01-11_51_000114.pickle contains NaN! (invalid)
+    data: 2023-01-10_7_6_000130.pickle contains NaN! (invalid)
+    data: 2023-01-11_51_000067.pickle contains NaN! (invalid)
+    data: 2023-01-12_55_53_54_000067.pickle contains NaN! (invalid)
+    data: 2023-01-10_7_6_000129.pickle contains NaN! (invalid)
+    data: 2023-01-13_52_000078.pickle contains NaN! (invalid)
+    data: 2023-01-13_52_000009.pickle contains NaN! (invalid)
+    data: 2023-01-16_21_000015.pickle contains NaN! (invalid)
+    data: 2023-01-13_74_000100.pickle contains NaN! (invalid)
+    data: 2023-01-10_47_000002.pickle contains NaN! (invalid)
+    data: 2023-01-10_46_13_000054.pickle contains NaN! (invalid)
+5. Jump in training loss when changing batch, try with batch size that is as large as possible, but might need to balance between size and memory allowance
+6. Top 12 class count:
+#Acer platanoides:  752
+#Acer pseudoplatanus:  33
+#Aesculus hippocastanum:  259
+#Carpinus betulus:  40
+#Corylus colurna:  85
+#Fraxinus excelsior:  82
+#Platanus × hispanica:  530
+#Populus nigra var. italica:  290
+#Prunus species:  58
+#Robinia pseudoacacia:  504
+#Sorbus aria:  26
+#Tilia cordata:  844
+
+7. Feature label
+0:
+1:
+2:
+3:
+
+
+Best model 
+1. GIN (distinctive-brook-54)
+2. ARMA (driven-spaceship-67)
+3. GCN (polished-donkey-70)
+4. Gated (glorious-flower-58)
+5. AGNN (worldly-aardvark-62)
+6. Gsage (laced-snowflake-73)
