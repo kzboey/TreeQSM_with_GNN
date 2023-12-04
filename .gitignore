@@ -1,0 +1,8 @@
+__pycache__/
+backup/
+wandb/
+datasets/
+pickle/
+*.pyc
+preprocess_file.ipynb
+

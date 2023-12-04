@@ -10,7 +10,7 @@ model_path = './models/{}.pth' # path to save model
 
 ## WEIGHT & BIASES ##
 training_log = True  # set to False if don't want to use weight and biase 
-WANDBID = '4ae0c463491edacd5223d5b6dbf93207a3996db8'
+WANDBID = ''
 
 ## GNN PARAMETER (COMMON) ##
 epochs = 80
